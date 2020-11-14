@@ -1,0 +1,10 @@
+  class Question:
+     def __init__(self, problem, answer):
+          self.problem = problem
+          self.answer = answer
+# formed a list of questions 
+math_questions = ["What is 1*1?\n(a) 10\n(b)1","What is 2*2?\n(a)  4\n(b)6","What is 5*2?\n(a)  8\n(b)10", "What is 6*1?\n(a)  6\n(b)7"]
+
+#list of answers
+questions = [Question(math_questions[0],"1"),Question(math_questions[1],"4"),Question(math_questions[3],"10"),Question(math_questions[4],"6"),]
+
